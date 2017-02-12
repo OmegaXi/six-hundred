@@ -15,8 +15,9 @@ for i in range(100000):
 			x = x-2 
 	base[c[0]-1] = base[c[0]-1] + 1 
 
-for i in range(0,600,5):
-	print(base[i],base[i+1],base[i+2],base[i+3],base[i+4])
+for i in range(0,600,10):
+	for j in range(0,10):
+		print(base[i+j]) 
 
 # 600个人，每次随机退出一个奇数位的人
 # 最后留下的是谁
