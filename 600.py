@@ -17,7 +17,8 @@ for i in range(100000):
 
 for i in range(0,600,10):
 	for j in range(0,10):
-		print(base[i+j]) 
+		print(base[i+j],end="")
+	print()
 
 # 600个人，每次随机退出一个奇数位的人
 # 最后留下的是谁
